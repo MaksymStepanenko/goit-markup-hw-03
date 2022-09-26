@@ -169,6 +169,7 @@ body {
   background-color: var(--acent-color);
   border-radius: 4px;
   border: 1px solid var(--acent-color);
+  cursor: pointer;
 
   padding: 10px 32px;
   margin-top: 20px;
@@ -377,7 +378,7 @@ body {
 .card-border {
   border: 1px solid #EEEEEE;
   border-top: none;
-  padding-top: 20px;
+  padding: 20px 24px;
 }
 .portfolio-cards img {
   display: block;
@@ -409,13 +410,10 @@ body {
   letter-spacing: 0.06em;
 
   margin-bottom: 4px;
-  padding-left: 24px;
 }
 .portfolio-cards p {
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
 
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
